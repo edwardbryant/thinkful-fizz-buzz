@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    $('#guts').text(" Counting ... ");
+    $('#guts').text(" Starting ... ");
     for (var i=1;i<=100;i++){
 
         if (checkForFizz(i)) {
